@@ -1,12 +1,15 @@
 import React from 'react';
-import Main from './components/Main';
+// import Main from './components/Main';
+
+import Teste from './components/teste';
 
 function App() {
   return (
     <div className="App">
-      <div style={styles.App}>
+      {/* <div style={styles.App}>
         <Main />
-      </div>
+      </div> */}
+    <Teste/>
     </div>
   );
 }
