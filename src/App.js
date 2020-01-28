@@ -1,7 +1,7 @@
 import React from 'react';
 // import Main from './components/Main';
 
-import Teste from './components/teste';
+import Hooks from './components/Hooks';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       {/* <div style={styles.App}>
         <Main />
       </div> */}
-    <Teste/>
+      <Hooks />
     </div>
   );
 }
