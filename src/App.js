@@ -1,15 +1,12 @@
 import React from 'react';
-// import Main from './components/Main';
-
-import Hooks from './components/Hooks';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
-      {/* <div style={styles.App}>
+      <div style={styles.App}>
         <Main />
-      </div> */}
-      <Hooks />
+      </div>
     </div>
   );
 }
