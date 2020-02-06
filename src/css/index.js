@@ -24,6 +24,31 @@ const styles = makeStyles({
         height: '100%',
         borderRadius: '0px 4px 4px 0px',
         backgroundColor: 'white',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    HeaderMainDireito:{
+        width: '95%',
+        height: '12%',
+        borderBottom: '1px solid #ccc',
+        display: 'flex',
+        alignItems: 'center',
+
+    },
+    'title-RennerPoint':{
+        fontSize: '1.4em',
+        color: '#333',
+    },
+    SessionMainDireito:{
+        width: '95%',
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+
     }
 })
 
