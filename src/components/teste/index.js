@@ -43,8 +43,8 @@ export default class Teste extends Component {
         return (
             <div>
                 <List>
-                    {this.state.obj.map((item) => (
-                        <ListItem>
+                    {this.state.obj.map((item,index) => (
+                        <ListItem key={index} >
                             <ListItemText primary={item.nome} />
                             <Button variant="contained" onClick={() => this.renner(item.nome)} color='primary' >Clique em mim</Button>
                         </ListItem>

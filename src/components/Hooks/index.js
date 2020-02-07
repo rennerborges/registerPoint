@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, useParams } from 'react-router-dom'
 
 export default props => {
     const [lista, setLista] = useState([]);
@@ -14,6 +15,8 @@ export default props => {
         setTexto(texto.target.value)
     }
 
+    let { id } = useParams();
+    console.log(id)
     return (
         <div>
             <input type="text" onChange={textos}></input>

@@ -35,12 +35,17 @@ const styles = makeStyles({
         height: '12%',
         borderBottom: '1px solid #ccc',
         display: 'flex',
+        justifyContent: 'space-between',
         alignItems: 'center',
-
+    },
+    logoRennerPoint:{
+        width: 120,
+        marginRight: 10,
     },
     'title-RennerPoint':{
-        fontSize: '1.4em',
+        fontSize: '1.3em',
         color: '#333',
+        marginLeft: 10,
     },
     SessionMainDireito:{
         width: '95%',

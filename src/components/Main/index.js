@@ -13,10 +13,11 @@ export default function Main() {
             <div className={classes.MainDireito}>
                 <div className={classes.HeaderMainDireito} >
                     <span className={classes['title-RennerPoint']}>Entrar</span>
+                    <img src={window.location.origin + '/img/logo.svg'} className={classes.logoRennerPoint}/>
                 </div>
                 <div className={classes.SessionMainDireito}>
                     <span style={{ color: '#777', fontSize: 14, }}>Informe seus dados para continuar</span>
-                    <form className={classes.formRennerPoint} action="./renner.html">
+                    <form className={classes.formRennerPoint} action="./teste/3">
                         <TextField
                             id="outlined"
                             label="Nome"
@@ -40,7 +41,7 @@ export default function Main() {
                             variant="outlined"
                         />
                         <Button
-                            type=" submit "
+                            type="submit"
                             tittle="Entrar"
 
                         />
