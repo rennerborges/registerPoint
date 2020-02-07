@@ -30,7 +30,7 @@ const styles = makeStyles({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    HeaderMainDireito:{
+    HeaderMainDireito: {
         width: '95%',
         height: '12%',
         borderBottom: '1px solid #ccc',
@@ -38,17 +38,17 @@ const styles = makeStyles({
         justifyContent: 'space-between',
         alignItems: 'center',
     },
-    logoRennerPoint:{
+    logoRennerPoint: {
         width: 120,
         marginRight: 10,
     },
-    'title-RennerPoint':{
+    'title-RennerPoint': {
         fontSize: '1.3em',
         color: '#333',
         marginLeft: 10,
     },
-    SessionMainDireito:{
-        width: '95%',
+    SessionMainDireito: {
+        width: '85%',
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
@@ -56,11 +56,16 @@ const styles = makeStyles({
         alignItems: 'center',
 
     },
-    formRennerPoint:{
+    formRennerPoint: {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    msgErro: {
+        fontSize: '0.8em',
+        color: 'red',
+        margin: '2% 0% 3% 0%',
     }
 })
 
