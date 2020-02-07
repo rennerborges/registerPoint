@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
+
 const styles = makeStyles({
     Main: {
         width: 540,
@@ -13,11 +14,11 @@ const styles = makeStyles({
         height: '100%',
         borderRadius: '4px 0px 0px 4px',
         backgroundColor: '#1d5fce',
-        backgroundImage: 'url(https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80)',
+        backgroundImage: `url(${window.location.origin + '/img/banner.jpeg'})`,
         backgroundSize: 'cover',
         border: 0,
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: '60% 50%',
+        backgroundPosition: '41% 50%',
     },
     MainDireito: {
         width: '100%',
