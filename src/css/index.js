@@ -49,6 +49,12 @@ const styles = makeStyles({
         justifyContent: 'center',
         alignItems: 'center',
 
+    },
+    formRennerPoint:{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
     }
 })
 
